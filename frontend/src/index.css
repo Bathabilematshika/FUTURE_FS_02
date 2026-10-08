@@ -1,0 +1,20 @@
+.dash { max-width: 1000px; margin: 0 auto; padding: 24px; }
+.topbar { display: flex; justify-content: space-between; align-items: center; }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 16px 0; }
+.stats div { background: #fff; padding: 14px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.stats b { display: block; font-size: 24px; margin-top: 4px; }
+.add-form { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+.add-form input { flex: 1; min-width: 160px; }
+.filter { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+.filter label { margin: 0; }
+.filter select { width: auto; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; }
+th, td { padding: 10px; text-align: left; border-bottom: 1px solid #eee; }
+th { background: #ece9fb; }
+.actions { display: flex; gap: 6px; }
+button.danger { background: #c0392b; }
+button.danger:hover { background: #a02e22; }
+.notes-cell { background: #fafaff; }
+.note { margin: 6px 0; padding: 8px; background: #fff; border-left: 3px solid #5b3fd1; }
+.note-form { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+.note-form input[type="text"], .note-form input:not([type]) { flex: 2; }
